@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    box-shadow: 3px 1px 5px indigo;
+    background-color: darkblue;
+    
+}
+
+figure{
+    width: 33%;
+}
+
+figure img{
+    display: block;
+    width: 100%;
+    height: 100px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+

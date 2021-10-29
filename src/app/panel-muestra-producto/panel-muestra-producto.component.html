@@ -1,0 +1,6 @@
+<h2 class="text-center mt-4">{{titulo}}</h2>
+<div class="container mt-2 mb-2">
+    <figure *ngFor="let producto of arrMostrar" (click)="enviarAComanda(producto)">
+        <img src="{{producto.imagen}}" alt="{{producto.nombre}}">
+    </figure>
+</div>

@@ -1,0 +1,16 @@
+.container{
+    border: 3px solid indigo;
+    background-color: yellowgreen;
+    height: 85vh;
+    overflow:auto ;
+}
+
+.precio{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+i{
+    cursor: pointer;
+}

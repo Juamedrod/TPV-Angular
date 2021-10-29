@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+
+body{
+    background-color: darkblue;
+    color: indigo;
+    font-family:'MuseoModerno', cursive;;
+    
+}
+
+h2, h3,h5{
+    text-shadow: 1px 1px 1px red;
+}

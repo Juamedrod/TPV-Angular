@@ -1,0 +1,13 @@
+<div class="container mt-5 text-center">
+    <h3>{{titulo}}</h3>
+    <div class="precio mt-2" *ngFor="let producto of uniqueArray; let index=index">
+        <button (click)="modifyQuantityHandler(producto,'-')" class="me-2">BORRAR</button>
+        <div>{{producto.nombre}} <span>= {{producto.precio}}€</span><i class="fas fa-chevron-circle-left ms-4 me-2"
+                (click)="modifyQuantityHandler(producto,'-')"></i>
+            {{numberOfThisProduct(producto,arrComanda)}}<i class="fas fa-chevron-circle-right ms-2"
+                (click)="modifyQuantityHandler(producto,'+')"></i></div>
+    </div>
+    <div class="total">
+        <p class="text-danger ">TOTAL: {{precioTotal() | number:"1.2-2"}} €</p>
+    </div>
+</div>
